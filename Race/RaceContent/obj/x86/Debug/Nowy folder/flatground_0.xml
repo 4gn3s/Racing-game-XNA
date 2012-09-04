@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>Model</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\RaceContent\Nowy folder\flatground.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>Mesh1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Positions>0 0 0 240 0 0 240 0 240 0 0 240 240 -24 0 240 -24 240 240 0 240 240 0 0 240 -24 240 0 -24 240 0 0 240 240 0 240 240 0 -240 0 0 -240 240 -24 -240 240 0 -240 0 -24 -240 240 -24 -240 240 0 -240 0 0 -240 -240 0 0 -240 0 -240 -240 -24 0 -240 -24 -240 -240 0 -240 -240 0 0 -240 -24 -240 -240 0 -240 -240 0 240 -240 -24 240 -240 0 240 -240 -24 240 -240 0 240</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 0 1 12 12 13 0 7 4 14 14 15 7 18 17 16 16 19 18 21 20 0 0 13 21 24 23 22 22 25 24 19 16 26 26 27 19 0 20 28 28 3 0 25 22 29 29 30 25 32 31 9 9 10 32</Indices>
+            <Vertices>
+              <PositionIndices>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 -1 0 1 0 0 1 0 0 0 0 -1 0 0 -1</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>FrontColor</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\RaceContent\Nowy folder\flatground.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">1 1 1</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.33 0.33 0.33</Data>
+        <Data Key="SpecularPower" Type="float">5</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+</XnaContent>

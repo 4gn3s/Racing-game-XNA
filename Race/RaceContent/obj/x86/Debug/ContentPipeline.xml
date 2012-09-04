@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>track.bmp</Source>
+      <Name>track</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\track.xnb</Output>
+      <Time>2012-08-08T17:28:12.7032885+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Checker.bmp</Source>
+      <Name>Checker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Checker.xnb</Output>
+      <Time>2012-08-09T11:04:22.8540517+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grass.bmp</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2012-08-08T17:28:12.4702752+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ship.fbx</Source>
+      <Name>ship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\ship.xnb</Output>
+      <Time>2012-08-09T09:52:05.268956+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ship_0.xml</Key>
+        <Value>2012-08-09T17:16:20.1217418+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\ship_tex_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Name>Ground</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Ground.xnb</Output>
+      <Time>2012-08-09T12:50:33.3074208+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Ground_0.xml</Key>
+        <Value>2012-08-09T17:16:20.6397715+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ship.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ship_0.xml</Output>
+      <Time>2012-08-09T09:52:05.268956+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ship_tex.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\ship_tex_0.xnb</Output>
+      <Time>2012-08-09T09:52:05.3549609+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Ground_0.xml</Output>
+      <Time>2012-08-09T12:50:33.3074208+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grass.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.4702752+02:00</Time>
+    </Item>
+    <Item>
+      <Source>clouds.dds</Source>
+      <Name>clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\clouds.xnb</Output>
+      <Time>2012-08-08T17:28:11.924244+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skysphere_mesh.FBX</Source>
+      <Name>skysphere_mesh</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skysphere_mesh.xnb</Output>
+      <Time>2012-08-08T17:28:12.6282842+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skysphere_mesh_0.xml</Key>
+        <Value>2012-08-09T18:45:58.9413827+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>skysphere_effect.fx</Source>
+      <Name>skysphere_effect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skysphere_effect.xnb</Output>
+      <Time>2012-08-08T17:28:12.5972825+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skysphere_mesh.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skysphere_mesh_0.xml</Output>
+      <Time>2012-08-08T17:28:12.6282842+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_bump.jpg</Source>
+      <Name>L200-C4D\tex\truck_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_bump.xnb</Output>
+      <Time>2012-08-31T12:23:48.8887607+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color-blue.jpg</Source>
+      <Name>L200-C4D\tex\truck_color-blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color-blue.xnb</Output>
+      <Time>2012-08-31T12:23:49.0907723+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color-red.jpg</Source>
+      <Name>L200-C4D\tex\truck_color-red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color-red.xnb</Output>
+      <Time>2012-08-31T12:23:49.4217912+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color-silver.jpg</Source>
+      <Name>L200-C4D\tex\truck_color-silver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color-silver.xnb</Output>
+      <Time>2012-08-31T12:23:49.7718112+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color.jpg</Source>
+      <Name>L200-C4D\tex\truck_color</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color.xnb</Output>
+      <Time>2012-08-31T12:23:50.1668338+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color_clean.jpg</Source>
+      <Name>L200-C4D\tex\truck_color_clean</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color_clean.xnb</Output>
+      <Time>2012-08-31T12:23:50.2438382+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_refl.jpg</Source>
+      <Name>L200-C4D\tex\truck_refl</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_refl.xnb</Output>
+      <Time>2012-08-31T12:23:50.3398437+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_refl_clean.jpg</Source>
+      <Name>L200-C4D\tex\truck_refl_clean</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_refl_clean.xnb</Output>
+      <Time>2012-08-31T12:23:50.3698454+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_spec.jpg</Source>
+      <Name>L200-C4D\tex\truck_spec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_spec.xnb</Output>
+      <Time>2012-08-31T12:23:50.5298546+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_spec_clean.jpg</Source>
+      <Name>L200-C4D\tex\truck_spec_clean</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_spec_clean.xnb</Output>
+      <Time>2012-08-31T12:23:50.5578562+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\L200-FBX.fbx</Source>
+      <Name>L200-C4D\L200-FBX</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\L200-FBX.xnb</Output>
+      <Time>2012-08-31T12:23:48.8287573+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\L200-C4D\L200-FBX_0.xml</Key>
+        <Value>2012-08-31T12:27:49.5655267+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>L200-C4D\L200-FBX.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\L200-C4D\L200-FBX_0.xml</Output>
+      <Time>2012-08-31T12:23:48.8287573+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color_0.xnb</Output>
+      <Time>2012-08-31T12:23:50.1668338+02:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2012-09-02T08:56:57.070455+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST\Grass.jpg</Source>
+      <Name>Nowy folder\MELBOURNETEST\Grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETEST\Grass.xnb</Output>
+      <Time>2007-02-19T23:36:20+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST\Material1.JPG</Source>
+      <Name>Nowy folder\MELBOURNETEST\Material1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETEST\Material1.xnb</Output>
+      <Time>2007-02-19T22:17:04+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST\_Grass_2.jpg</Source>
+      <Name>Nowy folder\MELBOURNETEST\_Grass_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETEST\_Grass_2.xnb</Output>
+      <Time>2007-02-19T23:36:10+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST\_Grass_4.jpg</Source>
+      <Name>Nowy folder\MELBOURNETEST\_Grass_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETEST\_Grass_4.xnb</Output>
+      <Time>2007-02-19T23:36:10+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST\_Light_Blue_5.jpg</Source>
+      <Name>Nowy folder\MELBOURNETEST\_Light_Blue_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETEST\_Light_Blue_5.xnb</Output>
+      <Time>2007-02-19T23:38:30+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2\Grass1.jpg</Source>
+      <Name>Nowy folder\Melbourne_Test_V2\Grass1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\Grass1.xnb</Output>
+      <Time>2007-02-20T11:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2\Material1.JPG</Source>
+      <Name>Nowy folder\Melbourne_Test_V2\Material1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\Material1.xnb</Output>
+      <Time>2007-02-20T11:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2\_Orang1.jpg</Source>
+      <Name>Nowy folder\Melbourne_Test_V2\_Orang1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\_Orang1.xnb</Output>
+      <Time>2007-02-20T15:50:38+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2\_OrangeR1.jpg</Source>
+      <Name>Nowy folder\Melbourne_Test_V2\_OrangeR1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\_OrangeR1.xnb</Output>
+      <Time>2007-02-20T15:51:44+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\flatground.fbx</Source>
+      <Name>Nowy folder\flatground</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\flatground.xnb</Output>
+      <Time>2007-02-19T12:10:46+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Nowy folder\flatground_0.xml</Key>
+        <Value>2012-09-02T11:04:49.1492728+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST.fbx</Source>
+      <Name>Nowy folder\MELBOURNETEST</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETEST.xnb</Output>
+      <Time>2007-02-19T23:35:34+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Nowy folder\MELBOURNETEST_0.xml</Key>
+        <Value>2012-09-02T11:04:50.3303404+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETest\Grass_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2.fbx</Source>
+      <Name>Nowy folder\Melbourne_Test_V2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2.xnb</Output>
+      <Time>2007-02-20T15:51:46+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Nowy folder\Melbourne_Test_V2_0.xml</Key>
+        <Value>2012-09-02T11:04:51.1013845+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\_OrangeR1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Nowy folder\flatground.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Nowy folder\flatground_0.xml</Output>
+      <Time>2007-02-19T12:10:46+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETEST.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Nowy folder\MELBOURNETEST_0.xml</Output>
+      <Time>2007-02-19T23:35:34+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\MELBOURNETest\Grass.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETest\Grass_0.xnb</Output>
+      <Time>2007-02-19T23:36:20+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Nowy folder\Melbourne_Test_V2_0.xml</Output>
+      <Time>2007-02-20T15:51:46+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nowy folder\Melbourne_Test_V2\_OrangeR1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\_OrangeR1_0.xnb</Output>
+      <Time>2007-02-20T15:51:44+01:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Bugatti.jpg</Source>
+      <Name>car_tex\Bugatti</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti.xnb</Output>
+      <Time>2012-08-08T17:28:12.7752927+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Compteur.jpg</Source>
+      <Name>car_tex\Compteur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur.xnb</Output>
+      <Time>2012-08-08T17:28:12.8032943+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Compteur2.jpg</Source>
+      <Name>car_tex\Compteur2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2.xnb</Output>
+      <Time>2012-08-08T17:28:12.833296+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Grille moteur.jpg</Source>
+      <Name>car_tex\Grille moteur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur.xnb</Output>
+      <Time>2012-08-08T17:28:12.8652978+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Grilles.jpg</Source>
+      <Name>car_tex\Grilles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles.xnb</Output>
+      <Time>2012-08-08T17:28:12.9093003+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Metal console.jpg</Source>
+      <Name>car_tex\Metal console</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console.xnb</Output>
+      <Time>2012-08-08T17:28:12.9353018+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Pneus bump.jpg</Source>
+      <Name>car_tex\Pneus bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Pneus bump.xnb</Output>
+      <Time>2012-08-08T17:28:12.9703038+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car.fbx</Source>
+      <Name>car</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car.xnb</Output>
+      <Time>2012-08-08T17:28:11.2062029+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\car_0.xml</Key>
+        <Value>2012-09-03T09:16:54.9701904+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>car.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\car_0.xml</Output>
+      <Time>2012-08-08T17:28:11.2062029+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Grilles.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.9093003+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Metal console.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.9353018+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Bugatti.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.7752927+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Grille moteur.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.8652978+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Compteur2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.833296+02:00</Time>
+    </Item>
+    <Item>
+      <Source>car_tex\Compteur.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.8032943+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D-RED\L200-FBX.fbx</Source>
+      <Name>L200-C4D-RED\L200-FBX</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\L200-FBX.xnb</Output>
+      <Time>2012-09-03T10:03:03.2535272+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\L200-C4D-RED\L200-FBX_0.xml</Key>
+        <Value>2012-09-03T10:03:06.3367035+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\truck_color_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>L200-C4D-RED\L200-FBX.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\L200-C4D-RED\L200-FBX_0.xml</Output>
+      <Time>2012-09-03T10:03:03.2535272+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D-RED\truck_color.jpg</Source>
+      <Name>L200-C4D-RED\truck_color</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\truck_color.xnb</Output>
+      <Time>2012-08-31T12:23:49.4217912+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D-RED\truck_color.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\truck_color_0.xnb</Output>
+      <Time>2012-08-31T12:23:49.4217912+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D-GRE\truck_color.jpg</Source>
+      <Name>L200-C4D-GRE\truck_color</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-GRE\truck_color.xnb</Output>
+      <Time>2012-08-31T12:23:49.2347805+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D\tex\truck_color-green.jpg</Source>
+      <Name>L200-C4D\tex\truck_color-green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D\tex\truck_color-green.xnb</Output>
+      <Time>2012-08-31T12:23:49.2347805+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D-GRE\L200-FBX.fbx</Source>
+      <Name>L200-C4D-GRE\L200-FBX</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-GRE\L200-FBX.xnb</Output>
+      <Time>2012-09-03T10:53:23.5862803+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\L200-C4D-GRE\L200-FBX_0.xml</Key>
+        <Value>2012-09-03T10:53:26.8194653+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-GRE\truck_color_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>L200-C4D-GRE\L200-FBX.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\L200-C4D-GRE\L200-FBX_0.xml</Output>
+      <Time>2012-09-03T10:53:23.5862803+02:00</Time>
+    </Item>
+    <Item>
+      <Source>L200-C4D-GRE\truck_color.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-GRE\truck_color_0.xnb</Output>
+      <Time>2012-08-31T12:23:49.2347805+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tree_billboard.png</Source>
+      <Name>tree_billboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\tree_billboard.xnb</Output>
+      <Time>2012-09-02T17:25:11.1804601+02:00</Time>
+    </Item>
+    <Item>
+      <Source>BillboardEffect.fx</Source>
+      <Name>BillboardEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\BillboardEffect.xnb</Output>
+      <Time>2012-09-02T17:25:08.6303143+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\RaceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\RaceContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-07-21T16:39:12.1868508+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

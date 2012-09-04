@@ -1,0 +1,570 @@
+; FBX 5.0.0 project file
+; (C)Copyright 1997-2003 Kaydara, Inc. ALL RIGHTS RESERVED
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+    FBXHeaderVersion: 1000
+    FBXVersion: 5000
+}
+FileId: "FieldWriteR unsupported in text files."
+CreationTime: "2006-12-11 12:30:28:812"
+Media:  {
+    Video:  {
+    }
+}
+Model: "Model" {
+    Version: 192
+    MultiLayer: 0
+    MultiTake: 1
+    Shading: Y
+    Culling: "CullingOff"
+    Limits:  {
+        TAuto: 1
+        RAuto: 1
+        SAuto: 1
+    }
+    Type: "Null"
+    TypeFlags: "Null"
+    Channel: "Transform" {
+        Channel: "T" {
+            Channel: "X" {
+                Default: 0
+                Color: 1,0,0
+            }
+            Channel: "Y" {
+                Default: 0
+                Color: 0,1,0
+            }
+            Channel: "Z" {
+                Default: 0
+                Color: 0,0,1
+            }
+        }
+        Channel: "R" {
+            Channel: "X" {
+                Default: 0
+                Color: 1,0,0
+            }
+            Channel: "Y" {
+                Default: 0
+                Color: 0,1,0
+            }
+            Channel: "Z" {
+                Default: 0
+                Color: 0,0,1
+            }
+        }
+        Channel: "S" {
+            Channel: "X" {
+                Default: 1
+                Color: 1,0,0
+            }
+            Channel: "Y" {
+                Default: 1
+                Color: 0,1,0
+            }
+            Channel: "Z" {
+                Default: 1
+                Color: 0,0,1
+            }
+        }
+    }
+    Channel: "Visibility" {
+        Default: 100
+        Color: 0.75,0,0
+    }
+    Children: "Mesh1"
+}
+Model: "Mesh1" {
+    Version: 192
+    MultiLayer: 0
+    MultiTake: 1
+    Shading: T
+    Culling: "CullingOff"
+    Limits:  {
+        TAuto: 1
+        RAuto: 1
+        SAuto: 1
+    }
+    Material: "FrontColor" {
+        Version: 100
+        ShadingModel: "phong"
+        Ambient: 0,0,0
+        Diffuse: 1,1,1
+        Specular: 0.33,0.33,0.33
+        Emissive: 0,0,0
+        Shininess: 5
+        Reflectivity: 0
+        Alpha: 1
+    }
+    GeometryVersion: 123
+    Vertices: 0,0,0,240,0,0,240,0,240,0,0,240,240,-24,0,240,-24,240,240,0,240,240,0,0,240,-24,240,0,-24,240,0,0,240,240,0,240,240,0
+     ,-240,0,0,-240,240,-24,-240,240,0,-240,0,-24,-240,240,-24,-240,240,0,-240,0,0,-240,-240,0,0,-240,0,-240,-240,-24,0,-240
+     ,-24,-240,-240,0,-240,-240,0,0,-240,-24,-240,-240,0,-240,-240,0,240,-240,-24,240,-240,0,240,-240,-24,240,-240,0,240
+    Normals: 0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,-1,0,0,-1,0,0,0,0,1
+     ,0,0,1,0,0,1,0,0,1,0,-1,0,0,-1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,-1,0,1,0,0,1,0,0,0,0,-1,0,0,-1
+    MaterialAssignation: "ByPolygon"
+    Materials: 0,0,0,0,0,0,0,0,0,0,0,0
+    TextureMode: "ByPolygon"
+    TextureId: 0,0,0,0,0,0,0,0,0,0,0,0
+    PolygonVertexIndex: 0,1,2,-4,4,5,6,-8,8,9,10,-12,12,1,0,-14,14,4,7,-16,16,17,18,-20,0,20,21,-14,22,23,24,-26,26,16,19,-28,28,20,0,-4,29,22
+     ,25,-31,9,31,32,-11
+    GeometryUVInfo:  {
+        Version: 240
+        MappingInformationType: "ByPolygon"
+        TextureUV: 0,0,-240,0,-240,-240,0,-240,0,-24,240,-24,240,0,-240,-24,-240,240,0,240,240,240,240,-240
+        TextureUVVerticeIndex: 0,1,2,3,4,5,6,0,7,4,0,1,8,1,0,9,7,4,0,1,4,5,6,0,0,6,10,9,4,5,6,0,7,4,0,1,11,6,0,3,7,4,0,1,4,5,6,0
+    }
+    Channel: "Transform" {
+        Channel: "T" {
+            Channel: "X" {
+                Default: 0
+                Color: 1,0,0
+            }
+            Channel: "Y" {
+                Default: 0
+                Color: 0,1,0
+            }
+            Channel: "Z" {
+                Default: 0
+                Color: 0,0,1
+            }
+        }
+        Channel: "R" {
+            Channel: "X" {
+                Default: 0
+                Color: 1,0,0
+            }
+            Channel: "Y" {
+                Default: 0
+                Color: 0,1,0
+            }
+            Channel: "Z" {
+                Default: 0
+                Color: 0,0,1
+            }
+        }
+        Channel: "S" {
+            Channel: "X" {
+                Default: 1
+                Color: 1,0,0
+            }
+            Channel: "Y" {
+                Default: 1
+                Color: 0,1,0
+            }
+            Channel: "Z" {
+                Default: 1
+                Color: 0,0,1
+            }
+        }
+    }
+    Channel: "Visibility" {
+        Default: 100
+        Color: 0.75,0,0
+    }
+}
+;Takes and animation section
+;----------------------------------------------------
+
+Takes:  {
+    Current: ""
+}
+GoboManager:  {
+}
+AmbientRenderSettings:  {
+    Version: 101
+    AmbientLightColor: 0.4,0.4,0.4,0
+}
+FogOptions:  {
+    FlogEnable: 0
+    FogMode: 0
+    FogDensity: 0.002
+    FogStart: 0.3
+    FogEnd: 1000
+    FogColor: 1,1,1,1
+}
+RendererSetting:  {
+    DefaultCamera: "Producer Perspective"
+    DefaultViewingMode: 0
+}
+Settings:  {
+    Camera: "Producer Perspective" {
+        Version: 192
+        MultiLayer: 0
+        MultiTake: 0
+        Hidden: "True"
+        Shading: W
+        Culling: "CullingOff"
+        Limits:  {
+            TAuto: 1
+            RAuto: 1
+            SAuto: 1
+        }
+        TypeFlags: "Camera"
+        Version: 210
+        Name: "Producer Perspective"
+        Position: 0,71.3,287.5
+        Up: 0,1,0
+        LookAt: 0,0,0
+        Roll: 0
+        Type: 0
+        FormatName: "Custom"
+        AspectType: 0
+        AspectW: 320
+        AspectH: 200
+        PixelRatio: 1
+        NearPlane: 10
+        FarPlane: 4000
+        CameraLock: 0
+        ApertureFormat: "35mm TV Projection"
+        ApertureMode: 2
+        CameraAperture: 0.816,0.612
+        SqueezeRatio: 1
+        FocalLength: 21.3544934949691
+        Aperture: 40
+        ViewFrustumPlane: 2
+        BackgroundMode: 0
+        ForegroundTransparent: 1
+        BackgroundTreshold: 0.5
+        DisplayMode: 6
+        ViewFrustumPlaneDistance: 100
+        ViewFrustumPlaneDistanceMode: 0
+        ViewLookAt: 1
+        ViewFrustum: 0
+        ShowGrid: 1
+        ShowAzimut: 1
+        ShowName: 1
+        ShowInfoOnMoving: 1
+        ShowTimeCode: 0
+        DisplaySafeArea: 0
+        SafeAreaStyle: 1
+        ShowAudio: 0
+        BackGroundColor: 0,0,0
+        AudioColor: 0,1,0
+        UseFrameColor: 0
+        FrameColor: 0.3,0.3,0.3
+        CameraAndLens:  {
+            DepthOfField: 0,0,3.5,200
+            Antialiasing: 0,0,0.77777
+            OverSampling: 7,1,0
+            UseOverSamplingTime: 1
+        }
+    }
+    Camera: "Producer Top" {
+        Version: 192
+        MultiLayer: 0
+        MultiTake: 0
+        Hidden: "True"
+        Shading: W
+        Culling: "CullingOff"
+        Limits:  {
+            TAuto: 1
+            RAuto: 1
+            SAuto: 1
+        }
+        TypeFlags: "Camera"
+        Version: 210
+        Name: "Producer Top"
+        Position: 0,4000,0
+        Up: 0,0,-1
+        LookAt: 0,0,0
+        Roll: 0
+        Type: 1
+        FormatName: "Custom"
+        AspectType: 0
+        AspectW: 320
+        AspectH: 200
+        PixelRatio: 1
+        NearPlane: 1
+        FarPlane: 30000
+        CameraLock: 0
+        ApertureFormat: "35mm TV Projection"
+        ApertureMode: 2
+        CameraAperture: 0.816,0.612
+        SqueezeRatio: 1
+        FocalLength: 21.3544934949691
+        Aperture: 40
+        ViewFrustumPlane: 2
+        BackgroundMode: 0
+        ForegroundTransparent: 1
+        BackgroundTreshold: 0.5
+        DisplayMode: 6
+        ViewFrustumPlaneDistance: 100
+        ViewFrustumPlaneDistanceMode: 0
+        ViewLookAt: 1
+        ViewFrustum: 0
+        ShowGrid: 1
+        ShowAzimut: 1
+        ShowName: 1
+        ShowInfoOnMoving: 1
+        ShowTimeCode: 0
+        DisplaySafeArea: 0
+        SafeAreaStyle: 1
+        ShowAudio: 0
+        BackGroundColor: 0,0,0
+        AudioColor: 0,1,0
+        UseFrameColor: 0
+        FrameColor: 0.3,0.3,0.3
+        CameraAndLens:  {
+            DepthOfField: 0,0,3.5,200
+            Antialiasing: 0,0,0.77777
+            OverSampling: 7,1,0
+            UseOverSamplingTime: 1
+        }
+    }
+    Camera: "Producer Front" {
+        Version: 192
+        MultiLayer: 0
+        MultiTake: 0
+        Hidden: "True"
+        Shading: W
+        Culling: "CullingOff"
+        Limits:  {
+            TAuto: 1
+            RAuto: 1
+            SAuto: 1
+        }
+        TypeFlags: "Camera"
+        Version: 210
+        Name: "Producer Front"
+        Position: 0,0,4000
+        Up: 0,1,0
+        LookAt: 0,0,0
+        Roll: 0
+        Type: 1
+        FormatName: "Custom"
+        AspectType: 0
+        AspectW: 320
+        AspectH: 200
+        PixelRatio: 1
+        NearPlane: 1
+        FarPlane: 30000
+        CameraLock: 0
+        ApertureFormat: "35mm TV Projection"
+        ApertureMode: 2
+        CameraAperture: 0.816,0.612
+        SqueezeRatio: 1
+        FocalLength: 21.3544934949691
+        Aperture: 40
+        ViewFrustumPlane: 2
+        BackgroundMode: 0
+        ForegroundTransparent: 1
+        BackgroundTreshold: 0.5
+        DisplayMode: 6
+        ViewFrustumPlaneDistance: 100
+        ViewFrustumPlaneDistanceMode: 0
+        ViewLookAt: 1
+        ViewFrustum: 0
+        ShowGrid: 1
+        ShowAzimut: 1
+        ShowName: 1
+        ShowInfoOnMoving: 1
+        ShowTimeCode: 0
+        DisplaySafeArea: 0
+        SafeAreaStyle: 1
+        ShowAudio: 0
+        BackGroundColor: 0,0,0
+        AudioColor: 0,1,0
+        UseFrameColor: 0
+        FrameColor: 0.3,0.3,0.3
+        CameraAndLens:  {
+            DepthOfField: 0,0,3.5,200
+            Antialiasing: 0,0,0.77777
+            OverSampling: 7,1,0
+            UseOverSamplingTime: 1
+        }
+    }
+    Camera: "Producer Right" {
+        Version: 192
+        MultiLayer: 0
+        MultiTake: 0
+        Hidden: "True"
+        Shading: W
+        Culling: "CullingOff"
+        Limits:  {
+            TAuto: 1
+            RAuto: 1
+            SAuto: 1
+        }
+        TypeFlags: "Camera"
+        Version: 210
+        Name: "Producer Right"
+        Position: 4000,0,0
+        Up: 0,1,0
+        LookAt: 0,0,0
+        Roll: 0
+        Type: 1
+        FormatName: "Custom"
+        AspectType: 0
+        AspectW: 320
+        AspectH: 200
+        PixelRatio: 1
+        NearPlane: 1
+        FarPlane: 30000
+        CameraLock: 0
+        ApertureFormat: "35mm TV Projection"
+        ApertureMode: 2
+        CameraAperture: 0.816,0.612
+        SqueezeRatio: 1
+        FocalLength: 21.3544934949691
+        Aperture: 40
+        ViewFrustumPlane: 2
+        BackgroundMode: 0
+        ForegroundTransparent: 1
+        BackgroundTreshold: 0.5
+        DisplayMode: 6
+        ViewFrustumPlaneDistance: 100
+        ViewFrustumPlaneDistanceMode: 0
+        ViewLookAt: 1
+        ViewFrustum: 0
+        ShowGrid: 1
+        ShowAzimut: 1
+        ShowName: 1
+        ShowInfoOnMoving: 1
+        ShowTimeCode: 0
+        DisplaySafeArea: 0
+        SafeAreaStyle: 1
+        ShowAudio: 0
+        BackGroundColor: 0,0,0
+        AudioColor: 0,1,0
+        UseFrameColor: 0
+        FrameColor: 0.3,0.3,0.3
+        CameraAndLens:  {
+            DepthOfField: 0,0,3.5,200
+            Antialiasing: 0,0,0.77777
+            OverSampling: 7,1,0
+            UseOverSamplingTime: 1
+        }
+    }
+    Camera: "Producer Left" {
+        Version: 192
+        MultiLayer: 0
+        MultiTake: 0
+        Hidden: "True"
+        Shading: W
+        Culling: "CullingOff"
+        Limits:  {
+            TAuto: 1
+            RAuto: 1
+            SAuto: 1
+        }
+        TypeFlags: "Camera"
+        Version: 210
+        Name: "Producer Left"
+        Position: -4000,0,0
+        Up: 0,1,0
+        LookAt: 0,0,0
+        Roll: 0
+        Type: 1
+        FormatName: "Custom"
+        AspectType: 0
+        AspectW: 320
+        AspectH: 200
+        PixelRatio: 1
+        NearPlane: 1
+        FarPlane: 30000
+        CameraLock: 0
+        ApertureFormat: "35mm TV Projection"
+        ApertureMode: 2
+        CameraAperture: 0.816,0.612
+        SqueezeRatio: 1
+        FocalLength: 21.3544934949691
+        Aperture: 40
+        ViewFrustumPlane: 2
+        BackgroundMode: 0
+        ForegroundTransparent: 1
+        BackgroundTreshold: 0.5
+        DisplayMode: 6
+        ViewFrustumPlaneDistance: 100
+        ViewFrustumPlaneDistanceMode: 0
+        ViewLookAt: 1
+        ViewFrustum: 0
+        ShowGrid: 1
+        ShowAzimut: 1
+        ShowName: 1
+        ShowInfoOnMoving: 1
+        ShowTimeCode: 0
+        DisplaySafeArea: 0
+        SafeAreaStyle: 1
+        ShowAudio: 0
+        BackGroundColor: 0,0,0
+        AudioColor: 0,1,0
+        UseFrameColor: 0
+        FrameColor: 0.3,0.3,0.3
+        CameraAndLens:  {
+            DepthOfField: 0,0,3.5,200
+            Antialiasing: 0,0,0.77777
+            OverSampling: 7,1,0
+            UseOverSamplingTime: 1
+        }
+    }
+    Camera: "Producer Back" {
+        Version: 192
+        MultiLayer: 0
+        MultiTake: 0
+        Hidden: "True"
+        Shading: W
+        Culling: "CullingOff"
+        Limits:  {
+            TAuto: 1
+            RAuto: 1
+            SAuto: 1
+        }
+        TypeFlags: "Camera"
+        Version: 210
+        Name: "Producer Back"
+        Position: 0,0,-4000
+        Up: 0,1,0
+        LookAt: 0,0,0
+        Roll: 0
+        Type: 1
+        FormatName: "Custom"
+        AspectType: 0
+        AspectW: 320
+        AspectH: 200
+        PixelRatio: 1
+        NearPlane: 1
+        FarPlane: 30000
+        CameraLock: 0
+        ApertureFormat: "35mm TV Projection"
+        ApertureMode: 2
+        CameraAperture: 0.816,0.612
+        SqueezeRatio: 1
+        FocalLength: 21.3544934949691
+        Aperture: 40
+        ViewFrustumPlane: 2
+        BackgroundMode: 0
+        ForegroundTransparent: 1
+        BackgroundTreshold: 0.5
+        DisplayMode: 6
+        ViewFrustumPlaneDistance: 100
+        ViewFrustumPlaneDistanceMode: 0
+        ViewLookAt: 1
+        ViewFrustum: 0
+        ShowGrid: 1
+        ShowAzimut: 1
+        ShowName: 1
+        ShowInfoOnMoving: 1
+        ShowTimeCode: 0
+        DisplaySafeArea: 0
+        SafeAreaStyle: 1
+        ShowAudio: 0
+        BackGroundColor: 0,0,0
+        AudioColor: 0,1,0
+        UseFrameColor: 0
+        FrameColor: 0.3,0.3,0.3
+        CameraAndLens:  {
+            DepthOfField: 0,0,3.5,200
+            Antialiasing: 0,0,0.77777
+            OverSampling: 7,1,0
+            UseOverSamplingTime: 1
+        }
+    }
+    TimeMode: 3
+    TimeFormat: 1
+    SnapOnFrames: 0
+    ReferenceTimeIndex: -1
+}
+
+; ----------------------------------------------------
