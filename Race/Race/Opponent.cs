@@ -10,10 +10,12 @@ namespace Race
 
         private float XTranslation;
 
-        protected float distance=0.0f, speed=300.0f;
+        protected float distance=0.0f, speed=0.0f;
         protected float initialRotation=0.0f;
         protected Vector2 trackPosition=Vector2.Zero;
         protected Vector2 direction;
+
+        const float Mass = 1000.0f;
 
         public Opponent(Model Model, Vector3 Position, Vector3 Rotation,
             Vector3 Scale, GraphicsDevice graphicsDevice, Track track, float XTranslation)
@@ -29,8 +31,9 @@ namespace Race
 
             if (speed < 0)
                 speed = 0;
-
-            distance += speed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            float dt = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            speed = 0.85f * dt * Mass;
+            distance += speed ; 
             //totalTrackLength += speed;
 
             float rot = initialRotation + (float)Math.Acos(direction.Y > 0 ? -direction.X : direction.X);

@@ -49,12 +49,12 @@
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Ground.xnb</Output>
-      <Time>2012-08-09T12:50:33.3074208+02:00</Time>
+      <Time>2012-09-05T14:28:53.0552055+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Ground_0.xml</Key>
-        <Value>2012-08-09T17:16:20.6397715+02:00</Value>
+        <Value>2012-09-05T14:28:54.0842644+02:00</Value>
       </Dependency>
-      <Request>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Request>
     </Item>
     <Item>
       <Source>ship.fbx</Source>
@@ -84,23 +84,7 @@
       <Importer>XImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Ground_0.xml</Output>
-      <Time>2012-08-09T12:50:33.3074208+02:00</Time>
-    </Item>
-    <Item>
-      <Source>grass.bmp</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.4702752+02:00</Time>
+      <Time>2012-09-05T14:28:53.0552055+02:00</Time>
     </Item>
     <Item>
       <Source>clouds.dds</Source>
@@ -754,6 +738,103 @@
       <Options>None</Options>
       <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\BillboardEffect.xnb</Output>
       <Time>2012-09-02T17:25:08.6303143+02:00</Time>
+    </Item>
+    <Item>
+      <Source>controls.png</Source>
+      <Name>controls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\controls.xnb</Output>
+      <Time>2012-09-04T13:14:48.317031+02:00</Time>
+    </Item>
+    <Item>
+      <Source>controls_selected.png</Source>
+      <Name>controls_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\controls_selected.xnb</Output>
+      <Time>2012-09-04T13:14:26.7657983+02:00</Time>
+    </Item>
+    <Item>
+      <Source>exit.png</Source>
+      <Name>exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\exit.xnb</Output>
+      <Time>2012-09-04T13:15:04.5089571+02:00</Time>
+    </Item>
+    <Item>
+      <Source>exit_selected.png</Source>
+      <Name>exit_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\exit_selected.xnb</Output>
+      <Time>2012-09-04T13:15:13.7334847+02:00</Time>
+    </Item>
+    <Item>
+      <Source>start.png</Source>
+      <Name>start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\start.xnb</Output>
+      <Time>2012-09-04T13:13:22.4331187+02:00</Time>
+    </Item>
+    <Item>
+      <Source>start_selected.png</Source>
+      <Name>start_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\start_selected.xnb</Output>
+      <Time>2012-09-04T13:13:42.7072783+02:00</Time>
+    </Item>
+    <Item>
+      <Source>countdownFont.spritefont</Source>
+      <Name>countdownFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\countdownFont.xnb</Output>
+      <Time>2012-09-04T12:16:53.9733099+02:00</Time>
+    </Item>
+    <Item>
+      <Source>paused.png</Source>
+      <Name>paused</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\paused.xnb</Output>
+      <Time>2012-09-04T13:29:09.8973106+02:00</Time>
+    </Item>
+    <Item>
+      <Source>364_tile_Grass.jpg</Source>
+      <Name>364_tile_Grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\364_tile_Grass.xnb</Output>
+      <Time>2012-09-05T14:27:36.6808372+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grass.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Output>
+      <Time>2012-08-08T17:28:12.4702752+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
