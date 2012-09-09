@@ -56,6 +56,11 @@ namespace Race
             return false;
         }
 
+        public void ChangePosition(Vector3 newposition)
+        {
+            this.Position = newposition;
+        }
+
         private void generateFrustum()
         {
             Frustum = new BoundingFrustum(View * Projection);

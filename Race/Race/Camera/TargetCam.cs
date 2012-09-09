@@ -19,11 +19,14 @@ namespace Race
             this.Position = position;
             this.Target = target;
             this.myTarget = mytarget;
+            this.Up = Vector3.Up;
         }
 
         public override void Update()
         {
-            this.View = Matrix.CreateLookAt(Position, Target, Vector3.Up);
+            this.View = Matrix.CreateLookAt(this.Position, this.Target, Vector3.Up);
+            Vector3 r = Vector3.Normalize(this.Target - this.Position);
+            this.Right = Vector3.Cross(r, Vector3.Up);
         }
 
         public override void Update(GameTime gameTime)

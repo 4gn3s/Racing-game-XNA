@@ -7,10 +7,8 @@ c:\users\agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\obj\x86\
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\track.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\ship.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\ship_tex_0.xnb
-C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Checker.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Ground.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass.xnb
-C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\fbDeprofiler.dll
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\clouds.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\skysphere_mesh.xnb
@@ -42,20 +40,6 @@ C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\MELBOURNETest\Grass_0.xnb
 C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Nowy folder\Melbourne_Test_V2\_OrangeR1_0.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Pneus bump.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles_0.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console_0.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti_0.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur_0.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2_0.xnb
-C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur_0.xnb
 C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\L200-FBX.xnb
 C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\truck_color.xnb
 C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-RED\truck_color_0.xnb
@@ -65,3 +49,27 @@ C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\
 C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\L200-C4D-GRE\truck_color_0.xnb
 C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\tree_billboard.xnb
 C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\BillboardEffect.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\controls.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\controls_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\exit.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\exit_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\start.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\start_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\countdownFont.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\paused.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\BillboardCrossEffect.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\checkerd.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\controls.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\controls_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\exit.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\exit_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\free_drive.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\free_drive_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\new_race.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\new_race_selected.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\cloud2.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_yellow.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\sand.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_yellow_0.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\hills.xnb
+C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\tree.xnb

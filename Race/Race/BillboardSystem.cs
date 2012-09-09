@@ -5,12 +5,13 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Input;
 
 namespace Race
 {
-    class BillboardSystem
+    public class BillboardSystem
     {
-                // Vertex buffer and index buffer, particle
+        // Vertex buffer and index buffer, particle
         // and index arrays
         VertexBuffer verts;
         IndexBuffer ints;
@@ -31,7 +32,7 @@ namespace Race
         public enum BillboardMode { Cylindrical, Spherical };
         public BillboardMode Mode = BillboardMode.Spherical;
 
-        public BillboardSystem(GraphicsDevice graphicsDevice,
+        public BillboardSystem(GraphicsDevice graphicsDevice, 
             ContentManager content, Texture2D texture,
             Vector2 billboardSize, Vector3[] particlePositions)
         {
@@ -152,6 +153,5 @@ namespace Race
             graphicsDevice.DrawIndexedPrimitives(PrimitiveType.TriangleList, 0, 0,
                 4 * nBillboards, 0, nBillboards * 2);
         }
-
     }
 }

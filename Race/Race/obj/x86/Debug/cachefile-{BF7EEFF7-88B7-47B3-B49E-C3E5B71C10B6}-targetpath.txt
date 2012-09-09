@@ -1,10 +1,7 @@
 Content\track.xnb
-Content\Checker.xnb
-Content\grass.xnb
 Content\ship.xnb
 Content\Ground.xnb
 Content\ship_tex_0.xnb
-Content\grass_0.xnb
 Content\clouds.xnb
 Content\skysphere_mesh.xnb
 Content\skysphere_effect.xnb
@@ -35,20 +32,6 @@ Content\Nowy folder\MELBOURNETEST.xnb
 Content\Nowy folder\Melbourne_Test_V2.xnb
 Content\Nowy folder\MELBOURNETest\Grass_0.xnb
 Content\Nowy folder\Melbourne_Test_V2\_OrangeR1_0.xnb
-Content\car_tex\Bugatti.xnb
-Content\car_tex\Compteur.xnb
-Content\car_tex\Compteur2.xnb
-Content\car_tex\Grille moteur.xnb
-Content\car_tex\Grilles.xnb
-Content\car_tex\Metal console.xnb
-Content\car_tex\Pneus bump.xnb
-Content\car.xnb
-Content\car_tex\Grilles_0.xnb
-Content\car_tex\Metal console_0.xnb
-Content\car_tex\Bugatti_0.xnb
-Content\car_tex\Grille moteur_0.xnb
-Content\car_tex\Compteur2_0.xnb
-Content\car_tex\Compteur_0.xnb
 Content\L200-C4D-RED\L200-FBX.xnb
 Content\L200-C4D-RED\truck_color.xnb
 Content\L200-C4D-RED\truck_color_0.xnb
@@ -58,3 +41,28 @@ Content\L200-C4D-GRE\L200-FBX.xnb
 Content\L200-C4D-GRE\truck_color_0.xnb
 Content\tree_billboard.xnb
 Content\BillboardEffect.xnb
+Content\controls.xnb
+Content\controls_selected.xnb
+Content\exit.xnb
+Content\exit_selected.xnb
+Content\start.xnb
+Content\start_selected.xnb
+Content\countdownFont.xnb
+Content\paused.xnb
+Content\BillboardCrossEffect.xnb
+Content\checkerd.xnb
+Content\buttons\controls.xnb
+Content\buttons\controls_selected.xnb
+Content\buttons\exit.xnb
+Content\buttons\exit_selected.xnb
+Content\buttons\free_drive.xnb
+Content\buttons\free_drive_selected.xnb
+Content\buttons\new_race.xnb
+Content\buttons\new_race_selected.xnb
+Content\cloud2.xnb
+Content\grass_yellow.xnb
+Content\grass.xnb
+Content\sand.xnb
+Content\grass_yellow_0.xnb
+Content\hills.xnb
+Content\tree.xnb

@@ -19,7 +19,7 @@ namespace Race
 
         public Vector3 RelativeCameraRotation { get; set; }
 
-        float springiness = .10f;
+        float springiness=0.1f;
 
         public float Springiness
         {
@@ -28,6 +28,10 @@ namespace Race
         }
 
         private GameObject myTarget;
+        public GameObject MyTarget
+        {
+            set { myTarget = value; }
+        }
 
         public ChaseCam(Vector3 PositionOffset, Vector3 TargetOffset,
             Vector3 RelativeCameraRotation, GraphicsDevice graphicsDevice, GameObject target)
@@ -54,34 +58,17 @@ namespace Race
 
         public override void Update()
         {
-            // Sum the rotations of the model and the camera to ensure it 
-            // is rotated to the correct position relative to the model's 
-            // rotation
             Vector3 combinedRotation = FollowTargetRotation +
                 RelativeCameraRotation;
-
-            // Calculate the rotation matrix for the camera
             Matrix rotation = Matrix.CreateFromYawPitchRoll(
                 combinedRotation.Y, combinedRotation.X, combinedRotation.Z);
-
-            // Calculate the position the camera would be without the spring
-            // value, using the rotation matrix and target position
             Vector3 desiredPosition = FollowTargetPosition +
-                Vector3.Transform(PositionOffset, rotation);
-
-            // Interpolate between the current position and desired position
+                Vector3.Transform(PositionOffset, rotation);//without the spring value
             Position = Vector3.Lerp(Position, desiredPosition, Springiness);
-
-            // Calculate the new target using the rotation matrix
             Target = FollowTargetPosition +
                 Vector3.Transform(TargetOffset, rotation);
-
-            // Obtain the up vector from the matrix
             Vector3 up = Vector3.Transform(Vector3.Up, rotation);
-
-            // Recalculate the view matrix
             View = Matrix.CreateLookAt(Position, Target, up);
-
             Vector3 forward = Vector3.Transform(Vector3.Forward, rotation);
             this.Up = up;
             this.Right = Vector3.Cross(forward, up);

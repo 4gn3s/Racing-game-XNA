@@ -8,25 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\track.xnb</Output>
-      <Time>2012-08-08T17:28:12.7032885+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Checker.bmp</Source>
-      <Name>Checker</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Checker.xnb</Output>
-      <Time>2012-08-09T11:04:22.8540517+02:00</Time>
-    </Item>
-    <Item>
-      <Source>grass.bmp</Source>
-      <Name>grass</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass.xnb</Output>
-      <Time>2012-08-08T17:28:12.4702752+02:00</Time>
+      <Time>2012-09-08T09:44:44.2723646+02:00</Time>
     </Item>
     <Item>
       <Source>ship.fbx</Source>
@@ -49,12 +31,12 @@
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Agnieszka\documents\visual studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\Ground.xnb</Output>
-      <Time>2012-09-05T14:28:53.0552055+02:00</Time>
+      <Time>2012-09-08T11:51:08.1361173+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Ground_0.xml</Key>
-        <Value>2012-09-05T14:28:54.0842644+02:00</Value>
+        <Value>2012-09-08T11:51:08.5741423+02:00</Value>
       </Dependency>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Request>
+      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_yellow_0.xnb</Request>
     </Item>
     <Item>
       <Source>ship.fbx</Source>
@@ -84,7 +66,7 @@
       <Importer>XImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Ground_0.xml</Output>
-      <Time>2012-09-05T14:28:53.0552055+02:00</Time>
+      <Time>2012-09-08T11:51:08.1361173+02:00</Time>
     </Item>
     <Item>
       <Source>clouds.dds</Source>
@@ -436,191 +418,6 @@
       <Time>2007-02-20T15:51:44+01:00</Time>
     </Item>
     <Item>
-      <Source>car_tex\Bugatti.jpg</Source>
-      <Name>car_tex\Bugatti</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti.xnb</Output>
-      <Time>2012-08-08T17:28:12.7752927+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Compteur.jpg</Source>
-      <Name>car_tex\Compteur</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur.xnb</Output>
-      <Time>2012-08-08T17:28:12.8032943+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Compteur2.jpg</Source>
-      <Name>car_tex\Compteur2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2.xnb</Output>
-      <Time>2012-08-08T17:28:12.833296+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Grille moteur.jpg</Source>
-      <Name>car_tex\Grille moteur</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur.xnb</Output>
-      <Time>2012-08-08T17:28:12.8652978+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Grilles.jpg</Source>
-      <Name>car_tex\Grilles</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles.xnb</Output>
-      <Time>2012-08-08T17:28:12.9093003+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Metal console.jpg</Source>
-      <Name>car_tex\Metal console</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console.xnb</Output>
-      <Time>2012-08-08T17:28:12.9353018+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Pneus bump.jpg</Source>
-      <Name>car_tex\Pneus bump</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Pneus bump.xnb</Output>
-      <Time>2012-08-08T17:28:12.9703038+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car.fbx</Source>
-      <Name>car</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car.xnb</Output>
-      <Time>2012-08-08T17:28:11.2062029+02:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\car_0.xml</Key>
-        <Value>2012-09-03T09:16:54.9701904+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles_0.xnb</Request>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console_0.xnb</Request>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti_0.xnb</Request>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur_0.xnb</Request>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2_0.xnb</Request>
-      <Request>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>car.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\car_0.xml</Output>
-      <Time>2012-08-08T17:28:11.2062029+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Grilles.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grilles_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.9093003+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Metal console.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Metal console_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.9353018+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Bugatti.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Bugatti_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.7752927+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Grille moteur.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Grille moteur_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.8652978+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Compteur2.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur2_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.833296+02:00</Time>
-    </Item>
-    <Item>
-      <Source>car_tex\Compteur.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\car_tex\Compteur_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.8032943+02:00</Time>
-    </Item>
-    <Item>
       <Source>L200-C4D-RED\L200-FBX.fbx</Source>
       <Name>L200-C4D-RED\L200-FBX</Name>
       <Importer>FbxImporter</Importer>
@@ -800,7 +597,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\countdownFont.xnb</Output>
-      <Time>2012-09-04T12:16:53.9733099+02:00</Time>
+      <Time>2012-09-06T13:33:55.2816293+02:00</Time>
     </Item>
     <Item>
       <Source>paused.png</Source>
@@ -812,16 +609,133 @@
       <Time>2012-09-04T13:29:09.8973106+02:00</Time>
     </Item>
     <Item>
-      <Source>364_tile_Grass.jpg</Source>
-      <Name>364_tile_Grass</Name>
+      <Source>BillboardCrossEffect.fx</Source>
+      <Name>BillboardCrossEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\BillboardCrossEffect.xnb</Output>
+      <Time>2012-08-09T12:32:23.6780975+02:00</Time>
+    </Item>
+    <Item>
+      <Source>checkerd.png</Source>
+      <Name>checkerd</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\364_tile_Grass.xnb</Output>
-      <Time>2012-09-05T14:27:36.6808372+02:00</Time>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\checkerd.xnb</Output>
+      <Time>2012-09-07T12:16:11.1842273+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\controls.png</Source>
+      <Name>buttons\controls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\controls.xnb</Output>
+      <Time>2012-09-07T12:44:32.430533+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\controls_selected.png</Source>
+      <Name>buttons\controls_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\controls_selected.xnb</Output>
+      <Time>2012-09-07T12:44:35.2926967+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\exit.png</Source>
+      <Name>buttons\exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\exit.xnb</Output>
+      <Time>2012-09-07T12:43:55.189403+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\exit_selected.png</Source>
+      <Name>buttons\exit_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\exit_selected.xnb</Output>
+      <Time>2012-09-07T12:43:58.2795797+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\free_drive.png</Source>
+      <Name>buttons\free_drive</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\free_drive.xnb</Output>
+      <Time>2012-09-07T12:45:23.3994483+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\free_drive_selected.png</Source>
+      <Name>buttons\free_drive_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\free_drive_selected.xnb</Output>
+      <Time>2012-09-07T12:45:26.4236213+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\new_race.png</Source>
+      <Name>buttons\new_race</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\new_race.xnb</Output>
+      <Time>2012-09-07T12:45:51.019028+02:00</Time>
+    </Item>
+    <Item>
+      <Source>buttons\new_race_selected.png</Source>
+      <Name>buttons\new_race_selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\buttons\new_race_selected.xnb</Output>
+      <Time>2012-09-07T12:45:53.9571961+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cloud2.png</Source>
+      <Name>cloud2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\cloud2.xnb</Output>
+      <Time>2012-09-08T11:36:19.1452699+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grass_yellow.png</Source>
+      <Name>grass_yellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_yellow.xnb</Output>
+      <Time>2010-11-30T13:44:14+01:00</Time>
     </Item>
     <Item>
       <Source>grass.bmp</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2012-09-08T11:47:37.3810628+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sand.bmp</Source>
+      <Name>sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\sand.xnb</Output>
+      <Time>2012-09-08T11:47:37.3960636+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grass_yellow.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -833,8 +747,26 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_0.xnb</Output>
-      <Time>2012-08-08T17:28:12.4702752+02:00</Time>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\grass_yellow_0.xnb</Output>
+      <Time>2010-11-30T13:44:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>hills.png</Source>
+      <Name>hills</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\hills.xnb</Output>
+      <Time>2012-09-08T11:52:53.0591185+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tree.dds</Source>
+      <Name>tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Agnieszka\Documents\Visual Studio 2010\Projects\Race\Race\Race\bin\x86\Debug\Content\tree.xnb</Output>
+      <Time>2012-09-08T15:13:37.8836172+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

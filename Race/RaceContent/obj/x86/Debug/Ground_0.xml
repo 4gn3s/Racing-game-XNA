@@ -47,6 +47,6 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\grass.bmp</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\grass_yellow.png</ExternalReference>
   </ExternalReferences>
 </XnaContent>

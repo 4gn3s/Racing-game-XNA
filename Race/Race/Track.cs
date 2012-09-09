@@ -8,14 +8,18 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Race
 {
-    class Track
+    public class Track
     {
         List<Vector2> controlPoints;
 
         VertexBuffer vertexBuffer;
         IndexBuffer indexBuffer;
 
-        public VertexPositionNormalTexture[] trackVertices;
+        Vector3[] trackVertices;
+        int[] trackIndices;
+
+        Vector3[] roadsideVertices;
+        const float roadsideWidth = 50; //each side
 
         int numberVertices, numberIndices;
 
@@ -23,7 +27,11 @@ namespace Race
         BasicEffect effect;
         Texture2D texture;
 
-        float trackLength; //total len of the track
+        float trackLength; //total len 
+        public float TrackLength
+        {
+            get { return trackLength; }
+        }
 
         public Track(List<Vector2> points, int numberDivisions, float width, int textureRepeats, GraphicsDevice device, ContentManager manager)
         {
@@ -37,6 +45,8 @@ namespace Race
 
             System.Console.Out.WriteLine("n vert" + numberVertices);
             System.Console.Out.WriteLine("n ind" + numberIndices);
+
+            
         }
 
         List<Vector2> SmoothPath(List<Vector2> additionalPoints, int numberDivisions)
@@ -67,7 +77,7 @@ namespace Race
 
         private int MakeIndex(int val, int maxVal)
         {
-            val = Math.Abs( val % maxVal ); //check
+            val = Math.Abs( val % maxVal ); 
             return val;
         }
 
@@ -81,83 +91,81 @@ namespace Race
             VertexPositionNormalTexture[] vertices = createVertices(trackWidth,
                 textureRepetitions);
 
-            // Create vertex buffer and set data
             vertexBuffer = new VertexBuffer(graphicsDevice, typeof(VertexPositionNormalTexture),
                 vertices.Length, BufferUsage.WriteOnly);
             vertexBuffer.SetData<VertexPositionNormalTexture>(vertices);
 
-            trackVertices = vertices;
+            trackVertices=new Vector3[vertices.Count()];
+            for(int i=0; i<vertices.Count(); i++)
+                trackVertices[i] = vertices[i].Position;
 
             int[] indices = createIndices();
+            trackIndices = indices;
 
-            // Reach compatibility requires 16 bit indices (short instead of int)
-            if (graphicsDevice.GraphicsProfile == GraphicsProfile.Reach)
-            {
-                short[] indices16 = new short[indices.Length];
+            //roadside
+            VertexPositionNormalTexture[] v = createVertices(trackWidth + 2 * roadsideWidth, textureRepetitions);
+            roadsideVertices = new Vector3[v.Count()];
+            for (int i = 0; i < v.Count(); i++)
+                roadsideVertices[i] = v[i].Position;
 
-                for (int i = 0; i < indices.Length; i++)
-                    indices16[i] = (short)indices[i];
-
-                // Create index buffer and set data
-                indexBuffer = new IndexBuffer(graphicsDevice, IndexElementSize.SixteenBits,
-                    indices.Length, BufferUsage.WriteOnly);
-                indexBuffer.SetData<short>(indices16);
-            }
-            else
-            {
-                // Create index buffer and set data
-                indexBuffer = new IndexBuffer(graphicsDevice, IndexElementSize.ThirtyTwoBits,
-                    indices.Length, BufferUsage.WriteOnly);
-                indexBuffer.SetData<int>(indices);
-            }
+            indexBuffer = new IndexBuffer(graphicsDevice, IndexElementSize.ThirtyTwoBits,
+                indices.Length, BufferUsage.WriteOnly);
+            indexBuffer.SetData<int>(indices);
         }
 
         VertexPositionNormalTexture[] createVertices(float trackWidth, int textureRepetitions)
         {
-            // Create 2 vertices for each track point
             numberVertices = controlPoints.Count * 2;
             VertexPositionNormalTexture[] vertices = new VertexPositionNormalTexture[numberVertices];
 
             int j = 0;
             trackLength = 0;
 
+            //Vector3 currentNormal = Vector3.Up;//
+            //float banking = 1.5f;//
+
             for (int i = 0; i < controlPoints.Count; i++)
             {
-                // Find the index of the next position
                 int next = MakeIndex(i + 1, controlPoints.Count - 1);
-
-                // Find the current and next positions on the path
                 Vector3 position = new Vector3(controlPoints[i].X, 0, controlPoints[i].Y);
                 Vector3 nextPosition = new Vector3(controlPoints[next].X, 0, controlPoints[next].Y);
-
-                // Find the vector between the current and next position
+                //int prev = MakeIndex(i - 1, controlPoints.Count - 1);//
+                //Vector3 prevPosition = new Vector3(controlPoints[prev].X, 0, controlPoints[prev].Y);//
                 Vector3 forward = nextPosition - position;
+                //Vector3 backward = position - prevPosition;//
+                //backward.Normalize();//
                 float length = forward.Length();
                 forward.Normalize();
 
-                // Find the side vector based on the forward and up vectors
+                //Vector3 perpDir = Vector3.Cross(forward, backward);//
+                //Vector3 centriDir = Vector3.Cross(forward, perpDir);//
+                //currentNormal = currentNormal + Vector3.Up / banking + centriDir * banking;//
+                //currentNormal.Normalize();
+                //Vector3 sideDir = Vector3.Cross(currentNormal, forward);
+                //sideDir.Normalize();
+                //currentNormal = Vector3.Cross(forward, sideDir);
+
                 Vector3 side = -Vector3.Cross(forward, Vector3.Up) * trackWidth;
 
-                // Create a vertex to the left and right of the current position
                 vertices[j++] = new VertexPositionNormalTexture(position - side,
                     Vector3.Up, new Vector2(0, trackLength));
                 vertices[j++] = new VertexPositionNormalTexture(position + side,
                     Vector3.Up, new Vector2(1, trackLength));
 
+                //vertices[j++] = new VertexPositionNormalTexture(position - sideDir * trackWidth,//
+                //    currentNormal, new Vector2(0, trackLength));//
+                //vertices[j++] = new VertexPositionNormalTexture(position + sideDir *trackWidth,//
+                //    currentNormal, new Vector2(1, trackLength));//
+
                 trackLength += length;
             }
 
-            // Attach the end vertices to the beginning to close the loop
-            vertices[vertices.Length - 1].Position = vertices[1].Position;
+            vertices[vertices.Length - 1].Position = vertices[1].Position; //end to the beginning stick - to close the loop
             vertices[vertices.Length - 2].Position = vertices[0].Position;
 
-            // For each vertex...
             for (int i = 0; i < vertices.Length; i++)
             {
-                // Bring the UV's Y coordinate back to the [0, 1] range
-                vertices[i].TextureCoordinate.Y /= trackLength;
-
-                // Tile the texture along the track
+                vertices[i].TextureCoordinate.Y /= trackLength; // Y in [0,1]
                 vertices[i].TextureCoordinate.Y *= textureRepetitions;
             }
 
@@ -166,17 +174,14 @@ namespace Race
 
         int[] createIndices()
         {
-            // Create indices
             numberIndices = (controlPoints.Count - 1) * 6;
             int[] indices = new int[numberIndices];
-
             int j = 0;
 
-            // Create two triangles between every position
             for (int i = 0; i < controlPoints.Count - 1; i++)
             {
                 int i0 = i * 2;
-
+                //2 triangles between every position
                 indices[j++] = i0;
                 indices[j++] = i0 + 1;
                 indices[j++] = i0 + 2;
@@ -192,136 +197,102 @@ namespace Race
         // and the forward direction at that point
         public Vector2 TracePath(float distance, out Vector2 direction)
         {
-            // Remove extra laps
             while (distance >trackLength)
-                distance -= trackLength;
+                distance -= trackLength;//extra laps removing
 
             int i = 0;
-
             while (true)
             {
-                // Find the index of the next and last position
                 int last = MakeIndex(i - 1, controlPoints.Count - 1);
                 int next = MakeIndex(i + 1, controlPoints.Count - 1);
 
-                // Find the distance between this position and the next
                 direction = controlPoints[next] - controlPoints[i];
                 float length = direction.Length();
-
-                // If the length remaining is greater than the distance to
-                // the next position, keep looping. Otherwise, the
-                // final position is somewhere between the current and next
-                // position in the list
                 if (length < distance)
                 {
                     distance -= length;
                     i++;
                     continue;
                 }
-
-                // Find the direction from the last position to the current position
                 Vector2 lastDirection = controlPoints[i] - controlPoints[last];
                 lastDirection.Normalize();
                 direction.Normalize();
 
-                // Determine how far the position is between the current and next
-                // positions in the list
                 float amt = distance / length;
-
-                // Interpolate the last and current direction and current and 
-                // next position to find final direction and position
                 direction = Vector2.Lerp(lastDirection, direction, amt);
-                return Vector2.Lerp(controlPoints[i], controlPoints[next], amt);
+                Vector2 ans = Vector2.Lerp(controlPoints[i], controlPoints[next], amt);
+                return ans;
             }
         }
 
-        //public Vector2 TracePath(float distance, float shift, out Vector2 direction)
-        //{
-        //    while (distance > trackLength)
-        //        distance -= trackLength;
-
-        //    int i = 0;
-
-        //    while (true)
-        //    {
-        //        // Find the index of the next and last position
-        //        int last = MakeIndex(i - 1, controlPoints.Count - 1);
-        //        int next = MakeIndex(i + 1, controlPoints.Count - 1);
-
-        //        // Find the distance between this position and the next
-        //        direction = controlPoints[next] - controlPoints[i];
-        //        float length = direction.Length();
-
-        //        // If the length remaining is greater than the distance to
-        //        // the next position, keep looping. Otherwise, the
-        //        // final position is somewhere between the current and next
-        //        // position in the list
-        //        if (length < distance)
-        //        {
-        //            distance -= length;
-        //            i++;
-        //            continue;
-        //        }
-
-        //        // Find the direction from the last position to the current position
-        //        Vector2 lastDirection = controlPoints[i] - controlPoints[last];
-        //        lastDirection.Normalize();
-        //        direction.Normalize();
-
-        //        // Determine how far the position is between the current and next
-        //        // positions in the list
-        //        float amt = distance / length;
-
-        //        // Interpolate the last and current direction and current and 
-        //        // next position to find final direction and position
-        //        direction = Vector2.Lerp(lastDirection, direction, amt);
-        //        Vector2 middle= Vector2.Lerp(controlPoints[i], controlPoints[next], amt);
-        //        Vector3 left = trackVertices[2*i].Position;
-        //        Vector3 right = trackVertices[2 * i + 1].Position;
-        //        Vector3 nextleft = trackVertices[MakeIndex(2 * i + 2, trackVertices.Length)].Position;
-        //        Vector3 nextright = trackVertices[MakeIndex(2 * i + 3, trackVertices.Length)].Position;
-        //        //Vector3 ansDirection = left - right;
-        //        //ansDirection.Normalize();
-
-        //        Vector2 answer ;
-        //        if (shift < 0)
-        //            answer = new Vector2(shift + middle.X, middle.Y) + new Vector2(middle.X, left.Z - middle.Y);
-        //        else
-        //            answer = new Vector2(shift + middle.X, middle.Y) + new Vector2(middle.X, right.Z - middle.Y);
-        //        //Console.Out.WriteLine("middle" + middle);
-        //        //Console.Out.WriteLine("left" + left);
-        //        //Console.Out.WriteLine("right" + right);
-        //        //Console.Out.WriteLine("shift" + shift);
-        //        //
-        //        //return answer;
-        //        if (shift > 0)
-        //            return Vector2.Lerp((new Vector2(right.X, right.Z) + controlPoints[i])/2, (new Vector2(nextright.X, nextright.Z)+controlPoints[i])/2, amt);
-        //        else
-        //            return Vector2.Lerp((new Vector2(left.X, left.Z) +controlPoints[next])/2, (new Vector2(nextleft.X, nextleft.Z) + controlPoints[next])/2, amt);
-        //    }
-        //}
-
-        public bool IsOnTrack(Vector3 v) //TODO
+        public bool IsOnTrack(Vector3 v) 
         {
-            return true;
+            for (int i = 0; i < trackIndices.Length; i += 3)
+            {
+                Vector3 p1 = trackVertices[trackIndices[i]];
+                Vector3 p2 = trackVertices[trackIndices[i+1]];
+                Vector3 p3 = trackVertices[trackIndices[i+2]];
+                if (PointInTriangle(ref p1, ref p2,ref p3,ref v))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public bool IsOnTrackOrRoadside(Vector3 v)
+        {
+            for (int i = 0; i < trackIndices.Length; i += 3)
+            {
+                Vector3 p1 = roadsideVertices[trackIndices[i]];
+                Vector3 p2 = roadsideVertices[trackIndices[i + 1]];
+                Vector3 p3 = roadsideVertices[trackIndices[i + 2]];
+                if (PointInTriangle(ref p1, ref p2, ref p3, ref v))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Determine whether a point P is inside the triangle ABC. 
+        // assumes that P is coplanar with the triangle.
+        public static bool PointInTriangle(ref Vector3 A, ref Vector3 B, ref Vector3 C, ref Vector3 P)
+        {
+            Vector3 u = B - A;
+            Vector3 v = C - A;
+            Vector3 w = P - A;
+            Vector3 vCrossW = Vector3.Cross(v, w);
+            Vector3 vCrossU = Vector3.Cross(v, u);
+
+            if (Vector3.Dot(vCrossW, vCrossU) < 0)
+                return false;
+
+            Vector3 uCrossW = Vector3.Cross(u, w);
+            Vector3 uCrossV = Vector3.Cross(u, v);
+
+            if (Vector3.Dot(uCrossW, uCrossV) < 0)
+                return false;
+
+            float denom = uCrossV.Length();
+            float r = vCrossW.Length() / denom;
+            float t = uCrossW.Length() / denom;
+
+            return (r <= 1 && t <= 1 && r + t <= 1);
         }
 
         public void Draw(Matrix View, Matrix Projection)
         {
-            // Set effect parameters
             effect.World = Matrix.Identity;
             effect.View = View;
             effect.Projection = Projection;
             effect.Texture = texture;
             effect.TextureEnabled = true;
 
-            // Set the vertex and index buffers to the graphics device
             graphicsDevice.SetVertexBuffer(vertexBuffer);
             graphicsDevice.Indices = indexBuffer;
 
-            // Apply the effect
             effect.CurrentTechnique.Passes[0].Apply();
-            // Draw the list of triangles
             graphicsDevice.DrawIndexedPrimitives(PrimitiveType.TriangleList,
                 0, 0, numberVertices, 0, numberIndices / 3);
         }

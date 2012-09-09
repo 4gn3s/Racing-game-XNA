@@ -65,7 +65,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "grass.bmp";
+    "grass_yellow.png";
    }
   }
  }

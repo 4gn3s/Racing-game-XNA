@@ -40,7 +40,7 @@ namespace Race
             game.GraphicsDevice.Clear(Color.CornflowerBlue);
             game.spriteBatch.Begin();
             //game.spriteBatch.Draw(background, Vector2.Zero, Color.White);
-            string text="CONTROLS\n\n WSAD,ARROW KEYS- move\n P-pause\n ESC-exit";
+            string text="CONTROLS\n\n WSAD,ARROW KEYS- move\n F1-F4- change camera\n N-change chase camera target\n P-pause\n ESC-exit";
             Vector2 textSize = font.MeasureString(text);
             Vector2 margins = new Vector2(game.GraphicsDevice.Viewport.Width - textSize.X, game.GraphicsDevice.Viewport.Height - textSize.Y);
             Vector2 textPosition = new Vector2(margins.X/2, margins.Y/2);

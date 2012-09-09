@@ -10,7 +10,6 @@ namespace Race
     class BeginGameGS : GameState
     {
         private bool animationFinished = false;
-
         private TimeSpan totalTimeElapsed = new TimeSpan();
 
         SpriteFont font;
