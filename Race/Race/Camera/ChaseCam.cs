@@ -11,13 +11,13 @@ namespace Race
     {
         public Vector3 Target { get; private set; }
 
-        public Vector3 FollowTargetPosition { get; private set; }
-        public Vector3 FollowTargetRotation { get; private set; }
+        public Vector3 TargetPosition { get; private set; }
+        public Vector3 TargetRotation { get; private set; }
 
         public Vector3 PositionOffset { get; set; }
         public Vector3 TargetOffset { get; set; }
 
-        public Vector3 RelativeCameraRotation { get; set; }
+        public Vector3 RelativeCamRotation { get; set; }
 
         float springiness=0.1f;
 
@@ -39,33 +39,33 @@ namespace Race
         {
             this.PositionOffset = PositionOffset;
             this.TargetOffset = TargetOffset;
-            this.RelativeCameraRotation = RelativeCameraRotation;
+            this.RelativeCamRotation = RelativeCameraRotation;
 
             this.myTarget = target;
         }
 
-        public void Move(Vector3 NewFollowTargetPosition,
-            Vector3 NewFollowTargetRotation)
+        public void Move(Vector3 targetPosition,
+            Vector3 targetRotation)
         {
-            this.FollowTargetPosition = NewFollowTargetPosition;
-            this.FollowTargetRotation = NewFollowTargetRotation;
+            this.TargetPosition = targetPosition;
+            this.TargetRotation = targetRotation;
         }
 
-        public void Rotate(Vector3 RotationChange)
+        public void Rotate(Vector3 dr)
         {
-            this.RelativeCameraRotation += RotationChange;
+            this.RelativeCamRotation += dr;
         }
 
         public override void Update()
         {
-            Vector3 combinedRotation = FollowTargetRotation +
-                RelativeCameraRotation;
+            Vector3 combinedRotation = TargetRotation +
+                RelativeCamRotation;
             Matrix rotation = Matrix.CreateFromYawPitchRoll(
                 combinedRotation.Y, combinedRotation.X, combinedRotation.Z);
-            Vector3 desiredPosition = FollowTargetPosition +
+            Vector3 desiredPosition = TargetPosition +
                 Vector3.Transform(PositionOffset, rotation);//without the spring value
             Position = Vector3.Lerp(Position, desiredPosition, Springiness);
-            Target = FollowTargetPosition +
+            Target = TargetPosition +
                 Vector3.Transform(TargetOffset, rotation);
             Vector3 up = Vector3.Transform(Vector3.Up, rotation);
             View = Matrix.CreateLookAt(Position, Target, up);

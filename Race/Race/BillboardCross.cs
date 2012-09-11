@@ -11,19 +11,15 @@ namespace Race
 {
     public class BillboardCross
     {
-        // Vertex buffer and index buffer, particle
-        // and index arrays
         VertexBuffer verts;
         IndexBuffer ints;
         VertexPositionTexture[] particles;
         int[] indices;
 
-        // Billboard settings
         int nBillboards;
         Vector2 billboardSize;
         Texture2D texture;
 
-        // GraphicsDevice and Effect
         GraphicsDevice graphicsDevice;
         Effect effect;
 
@@ -45,13 +41,11 @@ namespace Race
 
         void generateParticles(Vector3[] particlePositions)
         {
-            // Create vertex and index arrays
             particles = new VertexPositionTexture[nBillboards * 8];
             indices = new int[nBillboards * 12];
 
             int x = 0;
 
-            // For each billboard...
             for (int i = 0; i < nBillboards * 8; i += 8)
             {
                 Vector3 pos = particlePositions[i / 8];
@@ -59,7 +53,6 @@ namespace Race
                 Vector3 offsetX = new Vector3(billboardSize.X / 2.0f, billboardSize.Y / 2.0f, 0);
                 Vector3 offsetZ = new Vector3(0, offsetX.Y, offsetX.X);
 
-                // Add 4 vertices per rectangle
                 particles[i + 0] = new VertexPositionTexture(pos + new Vector3(-1, 1, 0) * 
                     offsetX, new Vector2(0, 0));
                 particles[i + 1] = new VertexPositionTexture(pos + new Vector3(-1, -1, 0) * 
@@ -78,7 +71,6 @@ namespace Race
                 particles[i + 7] = new VertexPositionTexture(pos + new Vector3(0, 1, 1) * 
                     offsetZ, new Vector2(1, 0));
 
-                // Add 6 indices per rectangle to form four triangles
                 indices[x++] = i + 0;
                 indices[x++] = i + 3;
                 indices[x++] = i + 2;
@@ -94,12 +86,10 @@ namespace Race
                 indices[x++] = i + 0 + 4;
             }
 
-            // Create and set the vertex buffer
             verts = new VertexBuffer(graphicsDevice, typeof(VertexPositionTexture), 
                 nBillboards * 8, BufferUsage.WriteOnly);
             verts.SetData<VertexPositionTexture>(particles);
 
-            // Create and set the index buffer
             ints = new IndexBuffer(graphicsDevice, IndexElementSize.ThirtyTwoBits, 
                 nBillboards * 12, BufferUsage.WriteOnly);
             ints.SetData<int>(indices);
@@ -114,7 +104,6 @@ namespace Race
 
         public void Draw(Matrix View, Matrix Projection)
         {
-            // Set the vertex and index buffer to the graphics card
             graphicsDevice.SetVertexBuffer(verts);
             graphicsDevice.Indices = ints;
 
@@ -136,11 +125,9 @@ namespace Race
                 drawBillboards();
             }
 
-            // Reset render states
             graphicsDevice.BlendState = BlendState.Opaque;
             graphicsDevice.DepthStencilState = DepthStencilState.Default;
 
-            // Un-set the vertex and index buffer
             graphicsDevice.SetVertexBuffer(null);
             graphicsDevice.Indices = null;
         }
